@@ -1,0 +1,27 @@
+#!/bin/bash
+
+read -p "Enter first number: " a
+read -p "Enter operator (+ - * /): " op
+read -p "Enter second number: " b
+
+case $op in
+    +)
+        echo "Result: $((a + b))"
+        ;;
+    -)
+        echo "Result: $((a - b))"
+        ;;
+    \*)
+        echo "Result: $((a * b))"
+        ;;
+    /)
+        if [ "$b" -eq 0 ]; then
+            echo "Cannot divide by zero."
+        else
+            echo "Result: $((a / b))"
+        fi
+        ;;
+    *)
+        echo "Invalid operator."
+        ;;
+esac

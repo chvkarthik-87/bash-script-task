@@ -1,0 +1,7 @@
+0 0 5 4 * echo "April 5 midnight" >> /tmp/cron-test.log
+0 0 5 1,6,11 4 echo "5th Jan Jun Nov Thursday" >> /tmp/cron-test.log
+5,27 9-11 * * * echo "9-11 hours 05 and 27 minutes" >> /tmp/cron-test.log
+34 9 15 8 * echo "August 15 9:34 AM" >> /tmp/cron-test.log
+0 0 * * * echo "Every midnight" >> /tmp/cron-test.log
+59 23 * * 6 echo "Saturday 11:59 PM" >> /tmp/cron-test.log
+@reboot echo "System rebooted" >> /tmp/reboot-test.log
