@@ -1,1 +1,1 @@
-echo "pollo SCM test "
+echo "pollo SCM testing"
