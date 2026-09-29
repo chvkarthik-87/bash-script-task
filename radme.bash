@@ -1,4 +1,5 @@
 # Bash Script Tasks
+ech "testing poll scm"
 
 ## Environment task
 
