@@ -1,6 +1,6 @@
 # Bash Script Tasks
 
-## Environment
+## Environment task
 
 - Operating System: Amazon Linux 2023
 - Platform: AWS EC2
