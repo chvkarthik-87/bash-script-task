@@ -2,7 +2,7 @@
 
 ## Environment
 
-- Operating System: Amazon Linux 2023.
+- Operating System: Amazon Linux 2023
 - Platform: AWS EC2
 - Shell: Bash
 
@@ -23,7 +23,7 @@
 
 ## Crontab Exercises
 
-1. April 5th Midnight
+1. April 5th Midnight.
 2. 5th of November, January and June if Thursday
 3. 05 and 27 minutes of 9, 10 and 11 hours every day
 4. 34 minutes of 9th hour on 15th August
